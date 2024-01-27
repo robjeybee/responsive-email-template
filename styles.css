@@ -7,31 +7,149 @@
 
 body {
   background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 table {
   width: 100%;
   max-width: 800px;
-  height: 500px;
   margin: auto;
+  margin-top: 30px;
+  border-spacing: 20px;
 }
-
-
 
 td,
 th {
-  border: 1px solid red;
+  padding: 10px;
+  text-align: center;
 }
 
-.header-img, img {
-    max-width: 100%;
+.header-img-container {
+  text-align: center;
+}
+
+.header-img {
+  width: 300px;
+  margin: auto;
+}
+
+.header-img,
+img {
+  max-width: 100%;
+}
+
+.intro-message {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.email-recipient {
+  font-size: 1.75rem;
+}
+
+.artist-name {
+  font-weight: bold;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.cta-widget {
+  line-height: 40px;
+  background-color: #ffffff;
 }
 
 .app-cta {
-    background-color: blue;
-    height: 400px;
+  background-color: blue;
+  width: 300px;
 }
 
+button {
+  background-color: #ed0223;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 100%;
+  padding: 10px 0px;
+  margin: 20px 0px 10px 0px;
+  border: none;
+}
+
+.helpful-links {
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.helpful-links h4 {
+  padding: 10px;
+}
+
+.helpful-links a {
+  display: block;
+  text-decoration: none;
+  color: rgb(74, 74, 74);
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.helpful-links a:last-child {
+  border-bottom: none;
+}
+
+/* Style for the social-icons and quick-links */
+.social-icons,
+.quick-links {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons li,
+.quick-links li {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 50px;
+  padding: 20px 0;
+}
+
+.quick-links a {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #494949;
+  font-size: 12px;
+  background-color: #d9d9d9;
+}
+
+.social-icons li:last-child,
+.quick-links li:last-child {
+  margin-right: 0;
+  border-right: none;
+}
+
+.connect {
+  padding-top: 20px;
+  color: #494949;
+  text-align: center;
+}
+
+.connect h4 {
+  font-size: 26px;
+}
+
+.connect p {
+  margin-bottom: 10px;
+}
 
 @media (max-width: 600px) {
   td,
@@ -43,5 +161,9 @@ th {
 
   .app-cta {
     width: 100%;
+  }
+
+  .artist-name {
+    font-size: 3rem;
   }
 }
