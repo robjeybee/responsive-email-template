@@ -60,9 +60,26 @@ img {
   background-color: #ffffff;
 }
 
-.app-cta {
-  background-color: blue;
-  width: 300px;
+
+.app-img {
+  padding: 0;
+}
+
+.app-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.app-text-header {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.app-stores img {
+  width: 150px;
+  padding: 10px 0;
 }
 
 button {
